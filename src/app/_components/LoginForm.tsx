@@ -1,8 +1,10 @@
 "use client";
 
+import { loginAction } from "../actions/auth";
+
 const LoginForm = () => {
   return (
-    <form action={} className="space-y-5">
+    <form action={loginAction} className="space-y-5">
       {/* Email */}
       <div>
         <label
