@@ -1,8 +1,10 @@
 import Link from "next/link";
 import LogoutButton from "./LogoutButton";
+import { getSession } from "../_lib/session";
+import { Users } from "lucide-react";
 
-const Navbar = () => {
-  const session = true;
+const Navbar = async () => {
+  const session = await getSession();
 
   return (
     <nav className="bg-white border-b border-gray-200">
@@ -11,9 +13,10 @@ const Navbar = () => {
         {/* Logo / Brand */}
         <Link
           href="/"
-          className="text-xl font-bold text-blue-600 tracking-tight hover:text-blue-700 transition"
+          className="flex items-center gap-2 text-xl font-bold tracking-tight text-blue-600 hover:text-blue-700 transition"
         >
-          Contact Manager
+          <Users className="h-6 w-6" />
+          Connect
         </Link>
 
         {/* Links */}

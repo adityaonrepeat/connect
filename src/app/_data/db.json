@@ -1,20 +1,30 @@
 {
-    "contacts": [
-        {
-            "id": "1",
-            "name": "John Doe",
-            "email": "jhon@test.com",
-            "userid": "1"
-        }
-    ],
-
-    "users": [
-        {
-            "id": "1",
-            "username": "user1",
-            "email": "user1@gmail.com",
-            "password": "123456"
-        }
-    ]
-
+  "contacts": [
+    {
+      "name": "Hulk Hogan",
+      "email": "hulk@gmail.com",
+      "userId": "c470",
+      "id": "cc86"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "41a8",
+      "name": "Jhon Cena",
+      "email": "jhoncena@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "c470",
+      "name": "Cena John",
+      "email": "cenajohn@gmail.com",
+      "password": "123456"
+    }
+  ]
 }
